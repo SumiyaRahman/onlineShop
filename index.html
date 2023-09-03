@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+    <nav class="bg-green-600 flex justify-between items-center px-16 py-3 sticky top-0 z-10">
+        <div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#ffffff" class="w-[2rem] h-[2rem] animate__animated animate__heartBeat">
+                <path d="M19.006 3.705a.75.75 0 00-.512-1.41L6 6.838V3a.75.75 0 00-.75-.75h-1.5A.75.75 0 003 3v4.93l-1.006.365a.75.75 0 00.512 1.41l16.5-6z" />
+                <path fill-rule="evenodd" d="M3.019 11.115L18 5.667V9.09l4.006 1.456a.75.75 0 11-.512 1.41l-.494-.18v8.475h.75a.75.75 0 010 1.5H2.25a.75.75 0 010-1.5H3v-9.129l.019-.006zM18 20.25v-9.565l1.5.545v9.02H18zm-9-6a.75.75 0 00-.75.75v4.5c0 .414.336.75.75.75h3a.75.75 0 00.75-.75V15a.75.75 0 00-.75-.75H9z" clip-rule="evenodd" />
+              </svg>              
+        </div>
+        <div>
+            <ul class="flex text-[14px] font-medium text-white">
+                <li class="mr-10 animate__animated animate__zoomIn"><a href="#">Home</a></li>
+                <li class="mr-10 animate__animated animate__zoomIn"><a href="#">About</a></li>
+                <li class="mr-10 animate__animated animate__zoomIn"><a href="#">Blog</a></li>
+                <li class="mr-10 animate__animated animate__zoomIn"><a href="#">Contact</a></li>
+                <li class="animate__animated animate__zoomIn"><a href="#" class="bg-white text-green-600 px-[15px] py-[6px] rounded-[3px] border border-transparent hover:text-white hover:bg-transparent hover:border hover:border-white">Login</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="px-16 py-6 min-h-screen flex items-center">
+        <div class="grid lg:grid-cols-2 md:grid-cols-1 gap-2">
+            <div class="flex items-center animate__animated animate__jackInTheBox">
+                <div>
+                    <h1 class="text-4xl font-semibold text-gray-800">Welcome to Our unique</h1>
+                    <h1 class="text-green-600 text-4xl font-semibold mt-3">Shop</h1>
+                    <p class="text-xs mt-3 leading-5 text-gray-500">Discover a world of convenience and style at our online shop, <br> where you can browse and buy the latest trends with just a click. <br> Elevate your shopping experience today!</p>
+                    <div class="mt-8">
+                        <a href="#" class="bg-green-600 mr-1 text-white px-[15px] py-[7px] rounded-[3px] font-normal hover:bg-green-700 ">Subscribe</a>
+                        <a href="#" class="bg-gray-300 px-[15px] py-[7px] rounded-[3px] font-normal hover:bg-gray-400">Connect with us!</a>
+                    </div>
+                    <div class="flex mt-5">
+                        <a href="https://www.facebook.com" target="_blank" class="mr-3"><img src="./img/facebook.png"></a>
+                        <a href="https://www.twitter.com" target="_blank" class="mr-3"><img src="./img/twitter.png" alt=""></a>
+                        <a href="https://www.googleplus.com" target="_blank"><img src="./img/google-plus.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <div class="animate__animated animate__slideInRight">
+                <img src="./img/image.png" alt="">
+            </div>
+        </div>
+    </section>
+</body>
+</html>
